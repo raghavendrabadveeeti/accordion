@@ -1,0 +1,12 @@
+.employee-header {
+    margin     : 20px;
+    height     : 30px;
+    background : antiquewhite;
+    cursor     : pointer;
+    font-size  : 15px;
+}
+
+.employee-body {
+    margin-left : 20px;
+    font-size   : 15px;
+}

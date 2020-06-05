@@ -1,0 +1,9 @@
+<div *ngFor="let employee of employees" >
+  <div (click)="onHeaderClick(employee)" class="employee-header">
+    Name : {{employee.name}}<br>
+  </div>
+  <div *ngIf="employee.isOpen" class="employee-body">
+    ID: {{employee.id}} <br>
+    Profession: {{employee.job}}<br>
+  </div>
+</div>
